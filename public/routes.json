@@ -1,19 +1,10 @@
 {
-  "routes": [
-    {
-      "route": "/{*}",
-      "serve": "/index.html",
-      "statusCode": 200
-    }
-  ],
-  "navigationFallback": {
-    "rewrite": "/index.html",
-    "exclude": ["/static/*", "/manifest.json", "/favicon.ico", "/assets/*"]
-  },
-  "responseOverrides": {
-    "404": {
-      "rewrite": "/index.html",
-      "statusCode": 200
-    }
+    "routes": [
+      {
+        "route": "/*",
+        "serve": "/index.html",
+        "statusCode": 200
+      }
+    ]
   }
-}
+  

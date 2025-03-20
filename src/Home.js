@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>Home v1.2</div>
+    <div>Home v1.3</div>
   )
 }
 
